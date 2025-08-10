@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-change-me-in-production'
 DEBUG = False
-ALLOWED_HOSTS: list[str] = []
+ALLOWED_HOSTS = ["alx-project-nexus-mqk2.onrender.com"]
 
 INSTALLED_APPS = [
     # Django
